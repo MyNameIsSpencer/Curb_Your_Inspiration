@@ -74,7 +74,7 @@ export default function CreateQuotePic() {
       textColour: itemData.selectedColour
     };
     createSubmission(dataObj);
-    window.location.href = "http://localhost:3000/quotepics";
+    window.location.href = `${window.location.origin}/quotepics`;
   };
   
   const selectImage = (event, selectedNum) => {
